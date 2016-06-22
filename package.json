@@ -1,6 +1,6 @@
 {
   "name": "@andreasgalster/fsn-text-swapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fsn-text-swapper is a set of basic shared styles, similar to bootstrap",
   "main": "fsn-text-swapper.html",
   "scripts": {
