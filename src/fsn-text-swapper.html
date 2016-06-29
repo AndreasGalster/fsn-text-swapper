@@ -1,6 +1,6 @@
-<dom-module id="fsn-text-swapper">
+<dom-module id='fsn-text-swapper'>
   <template>
-    <style include="houseme-styles"></style>
+    <style include='houseme-styles'></style>
     <style>
       :host {
         display: flex;
@@ -87,6 +87,19 @@
     }
 
 
+    @media screen and (max-width: 580px) {}
+
+        h1 {
+          font-size: 50px;
+        }
+
+
+        div {
+          white-space: normal !important;
+          max-width: 90vw !important;
+        }
+      }
+
     </style>
 
       <div>
@@ -94,12 +107,8 @@
         <span class='sentence'>
           <span>I'm looking for a </span>
         </span>
-        <span class="words">
-            <span>cat lover.</span
-            ><span>musician.</span
-            ><span>cook.</span
-            ><span>sports fan.</span
-            ><span>party goer.</span>
+        <span class='words'>
+            <span>cat lover.</span><span>musician.</span><span>cook.</span><span>sports fan.</span><span>party goer.</span>
         </span>
       </h1>
       <h2>Finding roommates made easy.</h2>
@@ -109,11 +118,10 @@
 </dom-module>
 
 <script>
-  require('@polymer/polymer/polymer.html');
-  require('@andreasgalster/fsn-boilerplate/dist/fsn-boilerplate.html');
+require('@polymer/polymer/polymer.html');
+require('@andreasgalster/fsn-boilerplate/dist/fsn-boilerplate.html');
 
-  Polymer({
-    is: 'fsn-text-swapper',
-  });
-
+Polymer({
+  is: 'fsn-text-swapper'
+});
 </script>
